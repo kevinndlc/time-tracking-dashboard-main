@@ -172,7 +172,7 @@ button {
         color: var(--text-muted);
 
         @include lg {
-          margin-bottom: 3px;
+          margin-bottom: 6px;
         }
       }
 
@@ -198,7 +198,7 @@ button {
         flex-direction: column;
         --gap: calc(21rem / 16);
         padding: 2rem;
-        padding-top: 1.5rem;
+        padding-top: 1.375rem;
       }
 
       label {
