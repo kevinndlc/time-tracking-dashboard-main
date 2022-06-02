@@ -46,8 +46,9 @@ function updateData() {
           : selectedPeriod === 'weekly'
           ? 'Last Week'
           : 'Last Month'
-      } - ${correspondingTimeframe.previous}
-      ${correspondingTimeframe.previous > 1 ? 'hrs' : 'hr'}
+      } - ${correspondingTimeframe.previous}${
+      correspondingTimeframe.previous > 1 ? 'hrs' : 'hr'
+    }
     `;
   });
 }
